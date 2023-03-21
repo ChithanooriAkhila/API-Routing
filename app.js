@@ -10,6 +10,6 @@ app.get("/about", (req, res) => {
   res.send("About Page");
 });
 
-app.listen(3002);
+app.listen(3000);
 
 module.exports = app;
